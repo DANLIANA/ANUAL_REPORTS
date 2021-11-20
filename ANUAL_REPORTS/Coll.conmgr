@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
+  DTS:ObjectName="Coll"
+  DTS:DTSID="{B772F70E-A746-4F1E-AC18-DCE4F78898FE}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::PRJ_QA_COLL_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=coll;User ID=accsifo;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAX8Bzl2B+BkegAvASiU4o1gAAAAACAAAAAAADZgAAwAAAABAAAADqHCABkxrarFOj0yHca4eUAAAAAASAAACgAAAAEAAAAMLwIG0Iwytqc+McTLwuylZ4AAAAM3rG44DhsnJJhTmd2Sn8C8nVzPxxViKtK+UdovMs/oU3+m0Uq6SF/7ZUyO/2jdanO9qjPOfsmHl9i4IujX0EhE7zyxt0UygpAGKV2tLwJAECIBRA/TUE8ty/stx7frRN6ndjUhbpZ7aGAusHuirlUmrnHbmmjV4ZFAAAAHyQfMLx9vIaW4fyAhj3ByZzSv0j</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
